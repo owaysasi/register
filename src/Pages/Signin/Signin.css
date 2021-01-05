@@ -1,0 +1,110 @@
+.signin-cont{
+    width: 1366px;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-signin-cont{
+    width: 608px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mini-left-signin-cont{
+    width: 500px;
+    height: 100%;
+    position: relative;
+}
+
+.logo-signin{
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.logo-name{
+    color: blue;
+    float: left;
+    font-family: Righteous;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 89px;
+    letter-spacing: 0em;
+
+}
+
+.parag-signin{
+    position: absolute;
+    width: 250px;
+    top: 220px;
+    text-align: left;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    color: gray;
+}
+
+.coma-signin{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+
+.joy-signin{
+    position: absolute;
+    bottom: 120px;
+    right: -120px;
+}
+
+.right-signin-cont{
+    width: 758px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mini-right-signin-cont{
+    width: 403px;
+}
+
+.label-signin{
+    float: left;
+    margin-top: 15px;
+}
+
+.btn-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.hr-or-parent{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.hr-line{
+    opacity: 30%;
+}
+
+.or{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 180px;
+    top: -12px;
+    width: 50px;
+    color: rgb(150, 150, 150);
+}
+
+.google-img{
+    float: left;
+}
+
+.error-show{
+    color: red;
+    text-align: left;
+}

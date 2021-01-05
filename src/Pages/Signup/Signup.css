@@ -1,0 +1,104 @@
+.signup-cont{
+    width: 1366px;
+    height: 605px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-signup-cont{
+    width: 608px;
+    background: url('../../Pics//controller.png') repeat rgb(0, 0, 255);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mini-left-signup-cont{
+    width: 500px;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.logo-signup-cont{
+    position: absolute;
+    color: white;
+}
+
+.logo-signup{
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.parag-signup{
+    position: absolute;
+    width: 250px;
+    top: 220px;
+    text-align: left;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.coma-signup{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+
+.right-signup-cont{
+    width: 758px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mini-right-signup-cont{
+    width: 403px;
+}
+
+.label-signup{
+    float: left;
+    margin-top: 15px;
+}
+
+.set-btns{
+    margin-bottom: 20px;
+}
+
+.hr-or-parent{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hr-line{
+    opacity: 30%;
+}
+
+.or{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 180px;
+    top: -12px;
+    width: 50px;
+    color: rgb(150, 150, 150);
+}
+
+.google-img{
+    float: left;
+}
+
+.error-show{
+    color: red;
+    text-align: left;
+}
+
+.have-account{
+    margin-top: 20px;
+}
